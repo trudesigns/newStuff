@@ -2,9 +2,17 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const IndexPage = () => (
-  <div>
-    <h1>The Great Gatsby</h1>
-    <p>Did you read this book?book</p>
+  <div className="jumbotron">
+    <h1 className="display-4">This is me</h1>
+    <p className="lead">
+      This is a simple hero unit, a simple jumbotron-style component for calling
+      extra attention to featured content or information.
+    </p>
+    <hr className="my-4" />
+    <p>
+      It uses utility classes for typography and spacing to space content out
+      within the larger container.
+    </p>
   </div>
 )
 

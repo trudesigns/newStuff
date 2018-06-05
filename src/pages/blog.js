@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ContactPage = () => (
+const BlogPage = () => (
   <ul className="list-unstyled">
     <li className="media">
       <img className="mr-3" src=".../64x64" alt="Generic placeholder image" />
@@ -35,4 +35,4 @@ const ContactPage = () => (
   </ul>
 )
 
-export default ContactPage
+export default BlogPage

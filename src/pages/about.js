@@ -1,15 +1,39 @@
-import React from 'react';
+import React from 'react'
+import logo from './../images/logo.png'
 
 const AboutPage = () => (
-    <div>
-        <h1>About The Great Gatsby</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere exercitationem inventore vero quam quis molestiae error beatae perspiciatis quasi? Voluptatem quae in officia architecto sequi dolorum facilis suscipit at corrupti.
-            Nulla, quaerat inventore blanditiis commodi quos alias, veniam optio, excepturi debitis nihil iusto! Aspernatur atque culpa nisi ducimus doloribus perspiciatis sequi! Obcaecati sunt accusamus exercitationem qui aut magnam libero blanditiis.
-            Nobis incidunt unde suscipit dolores consequatur saepe ipsa. Voluptate sapiente iusto sit id impedit necessitatibus dolore nemo? Corporis, enim delectus. Corrupti dolor maiores maxime ipsam ut iste odio in et!
-        </p>
-
-    </div>
+  <ul className="list-unstyled">
+    <li className="media">
+      <img src={logo} alt={'logoImage'} alt="Generic placeholder image" />
+      <div className="media-body">
+        <h5 className="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+        ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
+        viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+        Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li className="media my-4">
+      <img className="mr-3" src=".../64x64" alt="Generic placeholder image" />
+      <div className="media-body">
+        <h5 className="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+        ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
+        viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+        Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+    <li className="media">
+      <img className="mr-3" src=".../64x64" alt="Generic placeholder image" />
+      <div className="media-body">
+        <h5 className="mt-0 mb-1">List-based media object</h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque
+        ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
+        viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+        Donec lacinia congue felis in faucibus.
+      </div>
+    </li>
+  </ul>
 )
 
-export default AboutPage;
+export default AboutPage
