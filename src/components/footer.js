@@ -7,12 +7,21 @@ import Navbar from './navbar'
 
 const FooterWrapper = styled.nav`
   text-align: center;
+
+  i {
+    color: white;
+    padding: 56px;
+    font-size: 30px;
+    &:hover {
+      color: #f28fc5;
+    }
+  }
 `
 
 const Footer = ({ siteTitle }) => {
   return (
     <FooterWrapper>
-      <div style={{ background: 'pink', marginBottom: '1.45rem' }}>
+      <div style={{ background: 'gray', marginBottom: '1.45rem' }}>
         <div
           style={{
             margin: '0 auto',
@@ -21,14 +30,14 @@ const Footer = ({ siteTitle }) => {
           }}
         >
           <a href="https://www.facebook.com/trudesigns.co/ " target="_blank">
-            <i className="fab fa-facebook-f" style={{ color: 'white' }} />
+            <i className="fab fa-facebook-f" />
           </a>
 
           <a href="https://www.instagram.com/trudesigns.co" target="_blank">
-            <i className="fab fa-instagram" style={{ color: 'white' }} />
+            <i className="fab fa-instagram" />
           </a>
           <a href="mailto:trudesigns@me.com" target="_self">
-            <i className="far fa-envelope" style={{ color: 'white' }} />
+            <i className="far fa-envelope" />
           </a>
 
           <p>Copyright © 2018 Tru Designs. All rights reserved.</p>

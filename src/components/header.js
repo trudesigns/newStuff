@@ -8,7 +8,7 @@ import Navbar from './navbar'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#F28FC5',
       marginBottom: '1.45rem',
     }}
   >
@@ -24,6 +24,7 @@ const Header = ({ siteTitle }) => (
           to="/"
           style={{
             color: 'white',
+            justifyContent: 'center',
             textDecoration: 'none',
           }}
         >

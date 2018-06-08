@@ -16,6 +16,9 @@ const NavWrapper = styled.nav`
       padding: 56px;
       text-decoration: none;
       color: white;
+      &:hover {
+        color: gray;
+      }
     }
   }
 `
@@ -25,16 +28,16 @@ const Navbar = () => {
     <NavWrapper>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Web</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/branding">Branding</Link>
+        </li>
+        <li>
+          <Link to="/mobile">Mobile</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
-        </li>
-        <li>
-          <Link to="/blog">Blog</Link>
         </li>
       </ul>
     </NavWrapper>
