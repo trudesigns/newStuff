@@ -40,11 +40,13 @@ const MobilePage = () => (
         building and Elisa uses the GPS tracker to locate her daughter and picks
         her up safetly.{' '}
         <p>
-          Use Case: Parent to Child Primary user: Safe reliable communication
-          device Goal in Context: Parent tracks child location and communicates
-          to child wearable. Scope: Video, call, messaging, and GPS tracker
-          Trigger: Parent and or child experiences an emergency when they are
-          apart
+          Use Case: Parent to Child <br />
+          <br />Primary user: Safe reliable communication device Goal in<br />
+          <br />Context: Parent tracks child location and communicates to child
+          wearable. <br />
+          <br />Scope: Video, call, messaging, and GPS tracker <br />
+          <br />Trigger: Parent and or child experiences an emergency when they
+          are apart<br />
         </p>
       </div>
     </li>

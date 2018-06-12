@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import resume from './../images/TrishBellardine_Resume_2018.pdf'
 
 import styled from 'styled-components'
 
@@ -38,6 +39,11 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+          <a href={resume} target="_blank">
+            Resume
+          </a>
         </li>
       </ul>
     </NavWrapper>
